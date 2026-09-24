@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Hub</title>
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        h1 { font-family: 'Poppins', sans-serif; }
+        iframe, video, audio, embed { max-width: 100%; margin-bottom: 20px; }
+        .media-section { margin: 25px 0; }
+    </style>
+</head>
+<body>
+    <h1>My Media Hub</h1>
+
+    <div class="media-section">
+        <h2>YouTube Video</h2>
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="YouTube video"
+            allowfullscreen></iframe>
+    </div>
+
+    <div class="media-section">
+        <h2>Local Video</h2>
+        <video width="560" controls>
+            <source src="media/sample.mp4" type="video/mp4">
+            <source src="media/sample.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <p>Place your own MP4 and WebM files in the <code>media</code> folder.</p>
+    </div>
+
+    <div class="media-section">
+        <h2>Audio Clip</h2>
+        <audio controls>
+            <source src="media/sample.mp3" type="audio/mpeg">
+            <source src="media/sample.ogg" type="audio/ogg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Place your own MP3 and OGG files in the <code>media</code> folder.</p>
+    </div>
+
+    <div class="media-section">
+        <h2>PCPS College Map</h2>
+        <iframe
+            src="https://www.google.com/maps?q=PCPS%20College%20Kupondole%20Lalitpur&output=embed"
+            width="600" height="450"
+            style="border:0;"
+            loading="lazy"
+            title="PCPS College location map"></iframe>
+    </div>
+
+    <div class="media-section">
+        <h2>External Webpage</h2>
+        <iframe src="https://www.example.com" width="600" height="300" title="Example external webpage"></iframe>
+    </div>
+
+    <div class="media-section">
+        <h2>PDF Document</h2>
+        <embed src="pdf/sample.pdf" type="application/pdf" width="600" height="500">
+        <p>Place a PDF named <code>sample.pdf</code> in the <code>pdf</code> folder.</p>
+    </div>
+</body>
+</html>
