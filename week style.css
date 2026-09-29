@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: "Times New Roman", serif;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #333333;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 3px;
+}
+
+.logo {
+  margin-right: 100px;
+  height: 30px;
+}
+
+/* Centered profile card */
+.profile-card {
+  background-color: lightgray;
+  border: 2px solid black;
+  width: 500px;
+  margin: 60px auto;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+h1 {
+  color: darkblue;
+}
+
+h2 {
+  color: darkgreen;
+}
+
+.student-photo {
+  border: 3px solid black;
+  width: 130px;
+  height: 25px;
+}
+
+/* list stays left-aligned inside the card */
+ul {
+  text-align: left;
+  padding-left: 50px;
+}
