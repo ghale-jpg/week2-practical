@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <fieldset>
+            <legend>Gender</legend>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Interests</legend>
+            <input type="checkbox" id="programming" name="interests" value="Programming">
+            <label for="programming">Programming</label><br>
+            <input type="checkbox" id="web" name="interests" value="Web Technology">
+            <label for="web">Web Technology</label><br>
+            <input type="checkbox" id="gaming" name="interests" value="Gaming">
+            <label for="gaming">Gaming</label><br>
+            <input type="checkbox" id="music" name="interests" value="Music">
+            <label for="music">Music</label>
+        </fieldset><br>
+
+        <label for="department">Department:</label><br>
+        <select id="department" name="department">
+            <option value="IT">Information Technology</option>
+            <option value="CS">Computer Science</option>
+            <option value="Management">Management</option>
+            <option value="Engineering">Engineering</option>
+        </select><br><br>
+
+        <label for="about">About You:</label><br>
+        <textarea id="about" name="about" rows="6" cols="50" placeholder="Tell us about yourself..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
